@@ -1,0 +1,13 @@
+<div *ngIf="prevLinkName != null" (click)="navigateBack()" class="back-link">
+  <img src="assets/svg-data/20x20.svg"/>
+  <span>Back to {{prevLinkName | titlecase}}</span>
+</div>
+
+<div [ngSwitch]="headerFromParams">
+  <div *ngSwitchCase="'adobe_creative_cloud'" class="header-item">
+    <img class="svg-icon" src="assets/svg-data/adobeCreativeCloud.svg"/>
+    <h1>Adobe Creative Cloud</h1>
+  </div>
+
+  <div *ngSwitchDefault>Header is missing</div>
+</div>

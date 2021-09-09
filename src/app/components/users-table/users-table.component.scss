@@ -1,0 +1,57 @@
+.top-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  mat-form-field {
+    font-size: 14px;
+    width: 30%;
+  }
+
+  .mat-checkbox-frame,
+  .mat-checkbox-background,
+  .mat-checkbox-anim-unchecked-checked
+  .mat-checkbox-anim-checked-unchecked {
+    transform: scale(1.2);
+  }
+
+  .checkbox {
+    margin-top: 18px;
+  }
+
+  .download-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    img, span {
+      padding: 10px 3px;
+      height: 15px;
+      color: #277ED5;
+      margin-top: 11px;
+    }
+
+    .text-black {
+      color: #000000;
+    }
+  }
+}
+
+mat-table {
+  width: 100%;
+  border: 1px solid rgba(135,145,170,0.15);
+  border-radius: 4px;
+}
+
+td{
+  width: 25%;
+}
+
+th {
+  width: 25%;
+}
+
+.mat-header-cell {
+  font-size: 14px;
+  font-weight: 500;
+}

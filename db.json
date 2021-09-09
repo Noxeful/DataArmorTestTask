@@ -1,0 +1,464 @@
+{
+  "content": [
+    {
+      "accountUsageDataDto": { "accId": 271, "name": "Rosario Bergstrom", "email": "rosario.bergstrom@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.0306382150186102,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 392, "name": "Stuart Tremblay", "email": "stuart.tremblay@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.44880098682446673,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 37, "name": "Grant Mante", "email": "grant.mante@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.19766487238356617,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 34, "name": "Stella Collier", "email": "stella.collier@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.16774847576334362,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 248, "name": "Jackeline Harber", "email": "jackeline.harber@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.0,
+        "lastTime": 0,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 148, "name": "Velda Cruickshank", "email": "velda.cruickshank@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.8420293165140341,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 92, "name": "Deion Krajcik", "email": "deion.krajcik@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.36780679417168183,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 383, "name": "Raymond Bayer", "email": "raymond.bayer@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.05745300551653135,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 490, "name": "Emile Purdy", "email": "emile.purdy@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.3842372254851783,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 479, "name": "Evan Kunde", "email": "evan.kunde@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.18650121333217412,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 127, "name": "Marco Hickle", "email": "marco.hickle@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.11774103358186212,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 179, "name": "Godfrey Hackett", "email": "godfrey.hackett@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.45023669715360015,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 328, "name": "Elsa Predovic", "email": "elsa.predovic@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.010699424642615377,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 230, "name": "Kiarra Connelly", "email": "kiarra.connelly@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.25096215582269477,
+        "lastTime": 1577404800000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 107, "name": "Caitlyn Hand", "email": "caitlyn.hand@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.28472527012853416,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 338, "name": "Vickie Wisozk", "email": "vickie.wisozk@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.08664758042975472,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 255, "name": "Tate Torphy", "email": "tate.torphy@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.039033980537491665,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 259, "name": "Rylee Kuvalis", "email": "rylee.kuvalis@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.0918091711955996,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 310, "name": "Deontae Koepp", "email": "deontae.koepp@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.17792859491191065,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 362, "name": "Bennett Kulas", "email": "bennett.kulas@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.044993867626129766,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 495, "name": "Leatha Smith", "email": "leatha.smith@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.0744563087755119,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 370, "name": "Dawn Ortiz", "email": "dawn.ortiz@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.2747189495299788,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 225, "name": "Marian Kling", "email": "marian.kling@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.019546219372900492,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 223, "name": "Rafaela Dooley", "email": "rafaela.dooley@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.23950090916699995,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 426, "name": "Eldridge Willms", "email": "eldridge.willms@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.3508221151179563,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 483, "name": "Ollie Eichmann", "email": "ollie.eichmann@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.5285368273223385,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 26, "name": "Mariane Hills", "email": "mariane.hills@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.3796796415483234,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 323, "name": "Jacynthe Terry", "email": "jacynthe.terry@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.0030970916311503175,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 79, "name": "Jaren Jakubowski", "email": "jaren.jakubowski@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.09952315630672047,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 218, "name": "Zachariah Kerluke", "email": "zachariah.kerluke@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.8728902242764105,
+        "lastTime": 1577404800000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 318, "name": "August Klocko", "email": "august.klocko@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.18975136942248283,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 469, "name": "Nikki Larkin", "email": "nikki.larkin@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.24166121917284203,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 213, "name": "Otto Hammes", "email": "otto.hammes@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.7800422359780952,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 451, "name": "Reginald Luettgen", "email": "reginald.luettgen@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.4243497413318456,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 109, "name": "Jay Mills", "email": "jay.mills@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.16466899759161138,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 448, "name": "Brant Kunze", "email": "brant.kunze@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.06258539451408995,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 119, "name": "Gay Hoeger", "email": "gay.hoeger@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.07680551799314292,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 327, "name": "Jeanne Fahey", "email": "jeanne.fahey@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.2816625116856567,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 85, "name": "Golda Jakubowski", "email": "golda.jakubowski@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.6439818600469435,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 99, "name": "Araceli Cremin", "email": "araceli.cremin@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.036462621251337736,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 311, "name": "Napoleon Frami", "email": "napoleon.frami@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.38056144579958534,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 118, "name": "Hellen Quitzon", "email": "hellen.quitzon@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.013257277125729612,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 28, "name": "Sam Flatley", "email": "sam.flatley@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.09310695013887871,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 282, "name": "Zelma Gulgowski", "email": "zelma.gulgowski@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.1496472276705614,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 203, "name": "Ardella Nicolas", "email": "ardella.nicolas@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.21140198768239563,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 145, "name": "Levi Larkin", "email": "levi.larkin@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.1689402633364201,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 267, "name": "Nathanial Hyatt", "email": "nathanial.hyatt@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.14985314950053205,
+        "lastTime": 1577318400000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 188, "name": "Estevan Langosh", "email": "estevan.langosh@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.11779357148955334,
+        "lastTime": 1577491200000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 399, "name": "Blanca Tromp", "email": "blanca.tromp@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.246383810475413,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    },
+    {
+      "accountUsageDataDto": { "accId": 10, "name": "Kayden Conroy", "email": "kayden.conroy@denhut.com" },
+      "usageDetailDto": {
+        "utilization": 0.1512661138350999,
+        "lastTime": 1577577600000,
+        "userLicenses": ["Premium"],
+        "userBillingPeriods": ["Monthly"]
+      }
+    }
+  ],
+  "paging-info": {
+    "totalElements": 375,
+    "totalPages": 8,
+    "last": false,
+    "numberOfElements": 50,
+    "sort": null,
+    "first": true,
+    "size": 50,
+    "number": 0
+  }
+}

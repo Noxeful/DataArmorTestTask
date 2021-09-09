@@ -1,0 +1,62 @@
+<div class="top-bar">
+  <mat-form-field appearance="outline">
+    <input matInput (keyup)="applyFilter($event)" placeholder="Search by e-mail" #input>
+  </mat-form-field>
+
+  <div class="checkbox">
+    <mat-checkbox (change)="underutilizedLicensesHandler($event)">Underutilized Licenses</mat-checkbox>
+  </div>
+
+  <div class="checkbox">
+    <mat-checkbox (change)="abandonedLicensesHandler($event)">Abandoned Licenses</mat-checkbox>
+  </div>
+
+  <div class="download-links">
+    <span class="text-black">Save table to file</span>
+    <span>.CSV</span>
+    <img src="assets/svg-data/download.svg"/>
+    <span>.XLSX</span>
+    <img src="assets/svg-data/download.svg"/>
+  </div>
+</div>
+
+<div>
+  <mat-table mat-table [dataSource]="dataSource" matSort>
+
+    <ng-container matColumnDef="accountUsageDataDto.email">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Email </th>
+      <td mat-cell *matCellDef="let element"> {{element.accountUsageDataDto.email}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="usageDetailDto.utilization">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Utilization </th>
+      <td mat-cell *matCellDef="let element"> {{element.usageDetailDto.utilization}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="usageDetailDto.lastTime">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Last Active </th>
+      <td mat-cell *matCellDef="let element"> {{element.usageDetailDto.lastTime | date: 'd MMM, y'}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="usageDetailDto.userBillingPeriods">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Billing Period </th>
+      <td mat-cell *matCellDef="let element"> {{element.usageDetailDto.userBillingPeriods}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="usageDetailDto.userLicenses">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Payment Plan </th>
+      <td mat-cell *matCellDef="let element"> {{element.usageDetailDto.userLicenses}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columndefs"></tr>
+    <tr mat-row *matRowDef="let element; columns: columndefs;"></tr>
+
+    <tr class="mat-row" *matNoDataRow>
+    <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
+    </tr>
+
+  </mat-table>
+
+  <mat-paginator [length]="pagingInfo?.numberOfElements" [pageSize]="10" [pageSizeOptions]="[5, 10, 20]" aria-label="Items per page"></mat-paginator>
+
+</div>
