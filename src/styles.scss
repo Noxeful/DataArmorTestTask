@@ -12,6 +12,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1 rem = 10px
+
+  @media (max-width: 1366px) {
+    font-size: 50%;
+  }
 }
 
 body {
@@ -22,7 +26,7 @@ body {
 
 html, body {
   height: 100vh;
-  min-width: 136.6rem;
+  //min-width: 136.6rem;
 }
 
 
