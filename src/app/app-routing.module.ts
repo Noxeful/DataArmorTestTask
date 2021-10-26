@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {PreloadAllModules, RouterModule, Routes} from '@angular/router';
+
 import {HomeComponent} from "./components/home/home.component";
-import {ContentComponent} from "./components/content/content.component";
-import {SaasListComponent} from "./components/saas-list/saas-list.component";
-import {SupportComponent} from "./components/support/support.component";
-import {PlaceholderComponent} from "./components/placeholder/placeholder.component";
+import {SupportButtonComponent} from "./shared-modules/app-shared/components/support-button/support-button.component";
 
 const routes: Routes = [
   {
@@ -12,30 +10,14 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'saas_applications/utilization',
-    component: PlaceholderComponent,
-  },
-  {
-    path: 'saas_applications/renewals_calendar',
-    component: PlaceholderComponent,
-  },
-  {
-    path: 'saas_applications/saas_connections',
-    component: SaasListComponent,
-  },
-  {
-    path: 'saas_applications/saas_connections/:name',
-    component: ContentComponent,
-  },
-  {
-    path: 'support',
-    component: SupportComponent,
+    path: 'saas_applications',
+    loadChildren: () => import('./modules/saas-applications/saas-applications.module').then(m => m.SaasApplicationsModule)
   },
   { path: '**', redirectTo: 'page-not-found' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

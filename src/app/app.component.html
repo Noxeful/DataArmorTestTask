@@ -1,4 +1,4 @@
-<mat-sidenav-container class="mat-container">
+<mat-sidenav-container autosize class="mat-container">
 
   <mat-sidenav mode="side" opened class="mat-sidenav">
     <div class="binadox" (click)="navigateTo('')">
@@ -43,9 +43,9 @@
         </div>
       </div>
       <div *ngIf="openSaasMenu" class="saas-submenu">
-        <div (click)="navigateTo('saas_applications/utilization')">Utilization</div>
-        <div (click)="navigateTo('saas_applications/saas_connections')">SaaS Connections</div>
-        <div (click)="navigateTo('saas_applications/renewals_calendar')">Renewals Calendar</div>
+        <div class="saas-submenu-item" (click)="navigateTo('saas_applications/utilization')">Utilization</div>
+        <div class="saas-submenu-item" (click)="navigateTo('saas_applications/saas_connections')">SaaS Connections</div>
+        <div class="saas-submenu-item" (click)="navigateTo('saas_applications/renewals_calendar')">Renewals Calendar</div>
       </div>
     </div>
   </mat-sidenav>
@@ -62,8 +62,7 @@
         <img src="assets/svg-data/event-log-button.svg">
         <span>{{mail}}</span>
         <img src="assets/svg-data/arrow-down.svg">
-        <img (click)="navigateTo('support')" src="assets/svg-data/Question.svg">
-
+        <app-support-button></app-support-button>
       </div>
     </mat-toolbar>
 

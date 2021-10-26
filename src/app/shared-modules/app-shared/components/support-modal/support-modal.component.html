@@ -1,0 +1,41 @@
+<div class="support-modal-container">
+  <div (click)="closeDialog()" class="support-modal-close">
+    <img src="assets/svg-data/close.svg"/>
+  </div>
+
+  <h2 class="support-title" mat-dialog-title>How can we help you?</h2>
+
+  <div mat-dialog-content class="support-select">
+    <mat-form-field appearance="outline">
+      <mat-label>Choose a category</mat-label>
+      <mat-select [(ngModel)]="typeOfTicket" name="outline">
+        <mat-option *ngFor="let option of options" [value]="option.value">
+          {{option.viewValue}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div mat-dialog-content class="support-textarea">
+    <mat-form-field appearance="outline">
+      <mat-label>Please describe your issue</mat-label>
+      <textarea matInput
+                cdkTextareaAutosize
+                cdkAutosizeMinRows="10"
+                cdkAutosizeMaxRows="20" [(ngModel)]="ticket" ></textarea>
+    </mat-form-field>
+  </div>
+
+  <div mat-dialog-actions class="support-buttons">
+        <span>
+          <button
+            type="button"
+            mat-flat-button
+            [mat-dialog-close]="true"
+            (click)="onSend()"
+          >
+            Send
+          </button>
+        </span>
+  </div>
+</div>

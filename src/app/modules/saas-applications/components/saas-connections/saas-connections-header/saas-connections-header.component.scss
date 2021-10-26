@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 8rem;
+  margin: 1rem;
+}
+
+.svg-icon {
+  height: 30px;
+  width: 50px;
+}
+
+.header-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 900;
+}
+
+.back-link {
+  color: #277ED5;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: center;
+
+  span {
+    height: 15px;
+  }
+
+  img {
+    width: 20px;
+  }
+}
+
+.back-link:hover {
+  color: #FFFFFF;
+  transition: 0.3s;
+  border-radius: 5px;
+}

@@ -1,0 +1,24 @@
+<div class="top-container">
+  <div class="tc-first">
+    <app-saas-connections-header [headerFromParams]="param"></app-saas-connections-header>
+    <app-tab-nav
+      [tabNames]="tabNames"
+      [activeTab]="activeTab"
+      (onActiveTab)="onActiveTab($event)"
+    >
+    </app-tab-nav>
+  </div>
+
+  <div class="tc-second">
+    <img src="../../../../../assets/svg-data/list-blue.svg">
+    <span>Connections List</span>
+  </div>
+</div>
+
+<div [ngSwitch]="activeTab" class="content">
+  <div *ngSwitchCase="'Overview'"><app-placeholder></app-placeholder></div>
+  <div *ngSwitchCase="'Users'"><app-saas-user-table></app-saas-user-table></div>
+  <div *ngSwitchCase="'Billing'"><app-placeholder></app-placeholder></div>
+  <div *ngSwitchCase="'Features'"><app-placeholder></app-placeholder></div>
+  <div *ngSwitchDefault>Something went wrong</div>
+</div>
